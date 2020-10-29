@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytro1231/MEAN-.git"
+  },
+  "author": "Dmytro Rybalchenko <dimarubalchenk@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmytro1231/MEAN-/issues"
+  },
+  "homepage": "https://github.com/Dmytro1231/MEAN-#readme"
+}
